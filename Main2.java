@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author matte
  */
-public class Matematica
+public class Main2
 {
      public static void main(String[] args) 
     {
