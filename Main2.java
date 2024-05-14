@@ -20,5 +20,10 @@ public class Main2
         double a = tastiera.nextDouble();
         d = Metodi2.diagonaleQ(a);
         System.out.printf("La diagonale è lunga: %f", d);
+
+        System.out.printf("Ora inserisci un numero intero e io ti darò il fattoriale: ");
+        int b = tastiera.nextInt();
+        int f = Metodi2.fattoriale(b);
+        System.out.printf("Ecco il risultato: %d", f);
     }
 }
