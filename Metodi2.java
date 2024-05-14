@@ -15,6 +15,18 @@ public class Metodi2
         diagonale = l*Math.sqrt(2);
         return diagonale;
     }
+
+    public static int fattoriale(int n)
+    {
+        if (n <= 1)
+        {
+            return 1;
+        }
+        else
+        {
+            return n*fattoriale(n-1); 
+        }
+    }
     
     public static String daTat(String T)
     {
