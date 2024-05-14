@@ -12,7 +12,7 @@ public class Metodi2
     public static double diagonaleQ(double l)
     {
         double diagonale;
-        diagonale = Math.sqrt(l*l + l*l);
+        diagonale = l*Math.sqrt(2);
         return diagonale;
     }
     
